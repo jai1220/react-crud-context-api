@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-crud-context-api/static/css/main.abd64e84.css",
+    "main.js": "/react-crud-context-api/static/js/main.ab0aabc0.js",
+    "static/media/user.png": "/react-crud-context-api/static/media/user.03a0c31746680500c559.png",
+    "index.html": "/react-crud-context-api/index.html",
+    "main.abd64e84.css.map": "/react-crud-context-api/static/css/main.abd64e84.css.map",
+    "main.ab0aabc0.js.map": "/react-crud-context-api/static/js/main.ab0aabc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.ab0aabc0.js"
+  ]
+}
