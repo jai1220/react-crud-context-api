@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/react-crud-context-api/static/css/main.abd64e84.css",
-    "main.js": "/react-crud-context-api/static/js/main.630c42d6.js",
-    "static/media/user.png": "/react-crud-context-api/static/media/user.03a0c31746680500c559.png",
-    "index.html": "/react-crud-context-api/index.html",
-    "main.abd64e84.css.map": "/react-crud-context-api/static/css/main.abd64e84.css.map",
-    "main.630c42d6.js.map": "/react-crud-context-api/static/js/main.630c42d6.js.map"
+    "main.css": "./static/css/main.1a8a0596.css",
+    "main.js": "./static/js/main.edb71b87.js",
+    "index.html": "./index.html",
+    "main.1a8a0596.css.map": "./static/css/main.1a8a0596.css.map",
+    "main.edb71b87.js.map": "./static/js/main.edb71b87.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd64e84.css",
-    "static/js/main.630c42d6.js"
+    "static/css/main.1a8a0596.css",
+    "static/js/main.edb71b87.js"
   ]
 }
