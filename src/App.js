@@ -1,20 +1,26 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import {Home} from './components/Home';
-import {AddUser} from './components/AddUser';
-import {EditUser} from './components/EditUser';
+import { Home } from './components/Home';
+import { AddUser } from './components/AddUser';
+import { EditUser } from './components/EditUser';
+import { GlobalProvider } from './context/GlobalState';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
-    <div className='App'>
-      <Router>
-        <Home />
-        <AddUser />
-        <EditUser />
-      </Router>
+    <div style={{ margin: "4rem" }}>
+      <GlobalProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/add" element={<AddUser />} />
+            <Route path="/edit/:id" element={<EditUser />} />
+            <Route exact path="/" element={<Home />} />
+          </Routes>
+        </BrowserRouter>
+      </GlobalProvider>
     </div>
-    
   )
 }
 
