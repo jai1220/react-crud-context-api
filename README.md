@@ -1,8 +1,6 @@
 # Getting Started with CRUD Using Context API
 
-A simple crud operation using context api in react. This project was developed by Jeya Murugan
-
-Deployed [app](https://jai1220.github.io/react-crud-context-api/).
+A simple crud operation using context api in react. This project was developed by [Jeya Murugan](https://github.com/jai1220).
 
 ## Available Scripts
 
